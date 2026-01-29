@@ -3,8 +3,7 @@ class Biblioteca:
         self.catalogo_libri = catalogo_libri
         self.utenti = utenti
 
-    def aggiungi_libro(self, titolo,isbn, nome_autore, nazionalita_autore):
+    def aggiungi_libro(self, titolo,isbn, autore):
         self.titolo = titolo
         self.isbn = isbn
-        self.nome_autore = nome_autore
-        self.nazionalita_autore = nazionalita_autore
+        self.autore = autore
